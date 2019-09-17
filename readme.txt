@@ -1,28 +1,12 @@
-Any steps necessary to run your program on the command line, including compilation steps (if required) and the runtime versions you used
+# Book Genre Classifier
 
-Import the following libraries:
+This is a program which takes in a json and csv file and scans the json for keywords associated with
+scores then it returns the genre of the books along with their scores in a sorted order.
 
-import json
-import pandas as pd
-import re
-from collections import deque
+• Language: Python 3.7.2
 
-Written in Python: 3.7.2
-Writtem by Mostofa Adib Shakib.
+• Libraries: Pandas
 
-This script expects the cvs file and the json file to be on the same directory. 
-
-Any interesting trade-offs or edge cases you ran into:
-
-I used a variety of data structures which can make the program a bit slower.
-
-One of the many edge cases I thought of was for classes where we have multiple keywords which are repeated more than one for the same genre hence I have a dictionary to keep tracker of all the entries which I latter use to take the average and multiple the average with the total activity.
-I am using 
-
-Approximately how long you spent (this is not timed, but it’s helpful for us)
-
-I spent about 2 hours, the hardest thing for me in this project was finding the average for keywords that are repeated.
+Written by: Mostofa Adib Shakib
 
 
-
-I would like to thank BookBub for allowing me to take this take. I learnt a great deal from this chanllenge and have a great experience.
